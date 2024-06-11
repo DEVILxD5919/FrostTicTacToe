@@ -4,6 +4,8 @@
 
 FrostTicTacToe is a Pocketmine MP plugin that adds a fun and interactive TicTacToe game to your Minecraft server. Players can start, join, and manage TicTacToe games through a series of simple commands. This plugin is perfect for adding an extra layer of entertainment to your server, allowing players to challenge each other to quick and strategic TicTacToe matches.
 
+![FrostTicTacToe Opponent Turn](FrostTicTacToe1.png)
+![FrostTicTacToe Opponent Turn](FrostTicTacToe2.png)
 ## Features
 
 - Start a new TicTacToe game.
