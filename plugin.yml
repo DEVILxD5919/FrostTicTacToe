@@ -6,7 +6,7 @@ author: DEVILxD5919
 
 commands:
   tictactoe:
-    permission: tictactoe.cmd
+    permission: FrostTicTacToe.cmd
     usage: "/fttt (help|start|list|end|join <playerName>)"
     aliases: ["fttt"]
     
