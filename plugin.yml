@@ -1,0 +1,15 @@
+name: FrostTicTacToe
+api: 5.0.0
+main: FrostTicTacToe\Main
+version: 1.0.0
+author: DEVILxD5919
+
+commands:
+  tictactoe:
+    permission: tictactoe.cmd
+    usage: "/fttt (help|start|list|end|join <playerName>)"
+    aliases: ["fttt"]
+    
+permissions:
+  FrostTicTacToe.cmd:
+    default: true
