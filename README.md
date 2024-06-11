@@ -93,3 +93,6 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](https:/
 If you need help or have any questions, feel free to open an issue on GitHub or contact the plugin developer at [support@frostnetwork.xyz].
 
 Enjoy playing TicTacToe on your server with FrostTicTacToe!
+
+[![](https://poggit.pmmp.io/shield.state/FrostTicTacToe)](https://poggit.pmmp.io/p/FrostTicTacToe)
+<a href="https://poggit.pmmp.io/p/FrostTicTacToe"><img src="https://poggit.pmmp.io/shield.state/FrostTicTacToe"></a>
