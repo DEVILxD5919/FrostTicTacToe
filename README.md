@@ -82,7 +82,7 @@ reward:
 
 ## Contributing
 
-Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue on the [GitHub repository](https://github.com/yourusername/FrostTicTacToe). Pull requests are also appreciated.
+Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue on the [GitHub repository](https://github.com/DEVILxD5919/FrostTicTacToe). Pull requests are also appreciated.
 
 ## License
 
@@ -90,6 +90,6 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](https:/
 
 ## Support
 
-If you need help or have any questions, feel free to open an issue on GitHub or contact the plugin developer at [your email address].
+If you need help or have any questions, feel free to open an issue on GitHub or contact the plugin developer at [support@frostnetwork.xyz].
 
 Enjoy playing TicTacToe on your server with FrostTicTacToe!
