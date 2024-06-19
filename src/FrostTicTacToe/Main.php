@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace FrostTicTacToe;
 
-use davidglitch04\libEco\libEco;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
@@ -20,19 +19,9 @@ class Main extends PluginBase implements Listener {
 
     private array $games = [];
     private array $waiting = [];
-    private int $rewardMoney;
-    private $libEco;
 
     public function onEnable(): void {
-        $libEco = new libEco();
-        $libEco->isInstall();
-        $this->saveDefaultConfig();
-        $this->rewardMoney = $this->getConfig()->get("reward")["money"];
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-    }
-
-    public function getRewardMoney(): int {
-        return $this->rewardMoney;
     }
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
