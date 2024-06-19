@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace FrostTicTacToe;
 
-use davidglitch04\libEco\libEco;
 use pocketmine\player\Player;
 use pocketmine\utils\TextFormat;
 
@@ -104,14 +103,7 @@ class Game {
 
     public function end(?Player $winner = null): void {
         if ($winner !== null) {
-            $reward = $this->plugin->getRewardMoney();
-            $economy = new libEco();
-            if ($economy !== null) {
-                $economy->addMoney($winner, $reward);
-                $winner->sendMessage("§7[§aFrostTicTacToe§7] §2Congratulations! You won the game and received §a" . $reward . " §2money!");
-           } else {
-                $winner->sendMessage("§7[§aFrostTicTacToe§7] §2Congratulations! You won the game!");
-            }
+             $winner->sendMessage("§7[§aFrostTicTacToe§7] §2Congratulations! You won the game!");
             ($winner === $this->playerX ? $this->playerO : $this->playerX)->sendMessage("§7[§aFrostTicTacToe§7] §cYou lost the game.");
         } else {
             $this->playerX->sendMessage("§7[§aFrostTicTacToe§7] §eThe game ended in a draw.");
